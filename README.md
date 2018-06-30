@@ -24,11 +24,11 @@ All the project was developed with TensorFlow and KALDI and our project was base
        |- wav.scp
        |- ...
    ```
-  then, runing the following command to simulate reverbrant data.
-  ```shell
-  # remember to change the data path in run.sh
-  bash reverberate/run.sh
-  ```
+   then, runing the following command to simulate reverbrant data.
+   ```shell
+   # remember to change the data path in run.sh
+   bash reverberate/run.sh
+   ```
 
 2. After this step, you can get reverbrant waves and their counterparts, i.e., the clean speeches. Using KALDI command ```compute-spectrogram-feats``` to get log-power spectrum (LPS) features as your inputs. Using ```compute-mfcc-feats``` to get MFCC feature as your labels. In our experiments, we used 257-dim LPS and 40-dim MFCC without delta and delta-delta.
    - LPS: hamming window
