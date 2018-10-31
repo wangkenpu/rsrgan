@@ -51,11 +51,12 @@ All the project was developed with TensorFlow and KALDI and our project was base
 If the code of this repository was useful for your research, please cite our work:
 
 ```
-@article{ke2018gan,
-  title     = {Investigating Generative Adversarial Networks based Speech Dereverberation for Robust Speech Recognition},
-  author    = {Ke, Wang and Junbo, Zhang and Sining, Sun and Yujun, Wang and Fei Xiang, and Lei, Xie},
-  journal   = {arXiv preprint arXiv:1803.10132},
-  year      = {2018},
+@inproceedings{wang2018investigating,
+  author    = {Wang, Ke and Zhang, Junbo and Sun, Sining and Wang, Yujun and Xiang, Fei and Xie, Lei},
+  booktitle = {Interspeech 2018},
+  pages     = {1581--1585},
+  title     = {{Investigating Generative Adversarial Networks based Speech Dereverberation for Robust Speech Recognition}},
+  year      = {2018}
 }
 ```
 
